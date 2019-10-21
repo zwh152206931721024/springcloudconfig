@@ -1,0 +1,18 @@
+server:
+  port: ${port:9090}
+spring:
+  application:
+    name: eurekaProvider
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: root
+    url: jdbc:mysql://127.0.0.1:3306/springboot?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+    virtual-host: /
+test:
+  port: hello
