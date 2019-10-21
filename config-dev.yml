@@ -15,4 +15,4 @@ spring:
     password: guest
     virtual-host: /
 test:
-  port: hello
+  port: hello!!!!
